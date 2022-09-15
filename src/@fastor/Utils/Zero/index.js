@@ -1,0 +1,1 @@
+export const addZero = (n) => n <= 9 ? `${0}${n}` : n
