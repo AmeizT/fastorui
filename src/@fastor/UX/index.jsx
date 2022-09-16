@@ -1,4 +1,4 @@
-export { Loader } from './Loader'
-export { RingLoader } from "./Ring"
-export { DotLoader } from "./Dots"
-export { Spinner } from './Spinner'
+export { Loader } from './loader'
+export { RingLoader } from "./ring"
+export { DotLoader } from "./dots"
+export { Spinner } from './spinner'

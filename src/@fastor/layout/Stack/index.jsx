@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Base, Border, Radius, Space } from '../../Common'
+import { Base, Border, Radius, Space } from '../../@root'
 
 export const Stack = styled.div`
     ${Base}

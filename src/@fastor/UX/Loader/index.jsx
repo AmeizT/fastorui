@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Headtext, Lead, Text } from '../../Text'
-import { Segment, Stack, Item } from '../../Layout'
+import { Headtext, Lead, Text } from "../../content/text"
+import { Segment, Stack, Item } from "../../layout"
 
 export const Load = styled.div`
     & .heart {

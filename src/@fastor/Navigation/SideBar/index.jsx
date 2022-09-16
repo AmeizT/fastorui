@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Base, Border, Space } from '../../Common'
+import { Base, Border, Space } from '../../@root'
 
 export const SideBar = styled.aside`
     ${Base}

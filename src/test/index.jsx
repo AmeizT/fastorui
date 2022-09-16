@@ -5,7 +5,7 @@ import { ProductCard } from "../components"
 export default function Test(){
     return (
         <Box>
-            <ProductCard />
+            Exports working...
         </Box>
     )
 }

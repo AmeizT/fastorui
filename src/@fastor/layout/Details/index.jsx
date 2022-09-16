@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Base, Border, Space, Typography } from '../../Common'
+import { Base, Border, Space, Typography } from '../../@root'
 
 export const Details = styled.details`
     ${Base}

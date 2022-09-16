@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image"
 import Router from "next/router"
-import { Card, Container, imageLoader, Item, Segment } from "../../../@fastor"
+import { Card, Container, imageLoader, Item, Segment, pluralize } from "../../../@fastor"
 
 export function ProductCard({ title, content, image }){
     const [count, setCount] = React.useState(0)
@@ -30,7 +30,7 @@ export function ProductCard({ title, content, image }){
 
                 <Segment>
                     <button data-name="count" onClick={(e) => handleClick(e)}>
-                        Likes
+                        {pluralize(count, "Like")}
                     </button>
                     {count}
                 </Segment>

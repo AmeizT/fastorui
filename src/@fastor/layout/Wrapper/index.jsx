@@ -1,5 +1,5 @@
 import styled, {css} from 'styled-components'
-import { Base, Radius } from '../../Common'
+import { Base, Radius } from '../../@root'
 
 export const Wrapper = styled.div`
     ${Base}

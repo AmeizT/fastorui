@@ -1,1 +1,0 @@
-export const currency = (l, c, i) => new Intl.NumberFormat(l, { style: "currency", currency: c }).format(i)
